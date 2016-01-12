@@ -58,7 +58,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\Site.cs" />
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="SiteFactory.cs" />
+    <Compile Include="ViewModel\Commands\ParameterCommand.cs" />
+    <Compile Include="ViewModel\Converters\BooleanToVisabilityConverter.cs" />
     <Compile Include="ViewModel\SiteViewModel.cs" />
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
