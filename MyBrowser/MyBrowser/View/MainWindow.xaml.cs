@@ -68,6 +68,7 @@ namespace MyBrowser.View
         {
             MyListBox.Visibility = Visibility.Visible;
             MyBrowser.Visibility = Visibility.Collapsed;
+            MyBrowser.Navigate("about:blank");
         }
     }
 }
